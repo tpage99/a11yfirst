@@ -4,7 +4,7 @@ metaTitle: "A11y First | Web Dev Resources"
 metaDescription: "A launchpad for resources from Marcy Sutton's blogpost on web accessibility resources."
 ---
 
-**Content originally directed from Marcy Sutton's [Web Accessibility Resources](https://marcysutton.com/web-accessibility-resources)**
+**Content originally derived from Marcy Sutton's [Web Accessibility Resources](https://marcysutton.com/web-accessibility-resources)**
 
 A11y Project
 Deque University
