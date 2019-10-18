@@ -12,7 +12,7 @@ const config = {
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
-			{ "text": "", "link": ""}
+			{ "text": "", "link": "" }
 		],
 		"search": {
 			"enabled": false,
@@ -25,10 +25,10 @@ const config = {
 	"sidebar": {
 		"forcedNavOrder": [
 			"/introduction",
-    		"/codeblock"
+			"/codeblock"
 		],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "Hasura", "link": "https://hasura.io" },
 		],
 		"frontline": false,
 		"ignoreIndex": true,
@@ -37,7 +37,7 @@ const config = {
 		"title": "Gatsby Gitbook Boilerplate | Hasura",
 		"description": "Documentation built with mdx. Powering learn.hasura.io ",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
+		"docsLocation": "https://github.com/tpage99/a11yfirst",
 		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
 	},
 };
