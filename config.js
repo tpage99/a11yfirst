@@ -8,7 +8,7 @@ const config = {
 		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
 		"logoLink": "https://learn.hasura.io",
 		"title": "Gatsby Gitbook Boilerplate",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"githubUrl": "https://github.com/tpage99/a11yfirst",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
