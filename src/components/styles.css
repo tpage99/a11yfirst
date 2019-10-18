@@ -130,13 +130,12 @@ body {
   color: black;
   font-size: 14px;
 }
-.headerTitle a {
+.headerTitle {
   color: #fff;
-}
-
-.headerTitle a:hover {
-  text-decoration: none;
-  opacity: 0.8;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-right: 20px;
 }
 
 .navBarCollapse {
@@ -174,7 +173,7 @@ body {
   padding: 15px;
 }
 .navBarHeader {
-  min-width: 335px;
+  min-width: 167px;
   padding-right: 20px;
 }
 .navBarBrand {
@@ -736,7 +735,7 @@ img {
     font-size: 22px;
   }
   .navBarHeader {
-    min-width: 240px;
+    min-width: 167px;
   }
   .navBarCollapse {
     padding-right: 10px;
