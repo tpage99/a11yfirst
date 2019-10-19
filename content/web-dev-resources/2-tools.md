@@ -22,14 +22,18 @@ ___
 [Cauldron from deque](https://pattern-library.dequelabs.com/) is a fullyaccessible HTML, CSS, and Javascript front-end framework for creating web and mobile applications. Cauldron will not only help shortcut decisions and development time designing, creating and testing core components for your application but will be consistent with the branding, look and feel of all new Deque applications. Cauldron is designed to be as easy to use as it is elegant and modern. Cauldron is abstracted out into simple classes and tags, making it as flexible as HTML/CSS while still being behaviorally and aesthetically prescriptive. PUG tags are also supported and REACT is coming soon!
 
 Link: https://pattern-library.dequelabs.com 
-
 ___  
 
 ## Pa11y Dashboard  
 [Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accesibility dashboard for your site that displays all of the problems per page, helps you debug accesibility issues, and charts to show you progress or regressions. Great tool for visually sharing accesibility problems with your team and a perfect addition to shared monitors.
 
 Link: https://github.com/pa11y/pa11y-dashboard 
-
 ___ 
+
+## WAVE  
+The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extension), evaluates web content for accessibility issues for Chrome and Firefox browsers. The extension runs in the Chrome and Firefox browsers, ensuring private and secure accessibility reporting.
+
+Link: https://wave.webaim.org/extension/
+___  
 
 
