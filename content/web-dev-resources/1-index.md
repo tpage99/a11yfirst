@@ -1,6 +1,6 @@
 ---
-title: "Resources"
-metaTitle: "Resources for Web Developers"
+title: "Web Resources"
+metaTitle: "Web Developers"
 metaDescription: "A list of resources for web developers on how to maintain a focus on a11y when developing."
 ---
 

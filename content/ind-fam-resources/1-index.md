@@ -1,6 +1,6 @@
 ---
 title: "Web Resources"
-metaTitle: "Resources for Individuals and Families"
+metaTitle: "Individuals and Families"
 metaDescription: "A list of resources for web developers on how to maintain a focus on a11y when developing."
 ---
 
