@@ -108,7 +108,7 @@ export default class MDXRuntimeTest extends Component {
       }, [])
       .concat(navItems.items)
       .map(slug => {
-        if(slug) {
+        if (slug) {
           const { node } = allMdx.edges.find(
             ({ node }) => node.fields.slug === slug
           );
@@ -127,7 +127,7 @@ export default class MDXRuntimeTest extends Component {
     return (
       <Layout {...this.props}>
         <Helmet>
-          {metaTitle ? <title>{metaTitle}</title> : null }
+          {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
           {metaDescription ? <meta name="description" content={metaDescription} /> : null}
           {metaTitle ? <meta property="og:title" content={metaTitle} /> : null}
@@ -141,7 +141,7 @@ export default class MDXRuntimeTest extends Component {
             {mdx.fields.title}
           </h1>
           <Edit className={'mobileView'}>
-            <Link className={'gitBtn'} to={`${docsLocation}/${mdx.parent.relativePath}`}>
+            <Link className={'gitBtn'} to={`${docsLocation}`}>
               <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
             </Link>
           </Edit>
