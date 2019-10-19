@@ -7,7 +7,7 @@ const config = {
 	"header": {
 		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
 		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
+		"title": "A11y First",
 		"githubUrl": "https://github.com/tpage99/a11yfirst",
 		"helpUrl": "",
 		"tweetText": "",
@@ -34,7 +34,7 @@ const config = {
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Gatsby Gitbook Boilerplate | Hasura",
+		"title": "A11y First | Hasura",
 		"description": "Documentation built with mdx. Powering learn.hasura.io ",
 		"ogImage": null,
 		"docsLocation": "https://github.com/tpage99/a11yfirst",

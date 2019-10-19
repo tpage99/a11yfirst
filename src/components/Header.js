@@ -1,7 +1,6 @@
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import GitHubButton from 'react-github-btn'
-import Link from './link';
 import './styles.css';
 import config from '../../config.js';
 
@@ -42,12 +41,10 @@ const Header = ({location}) => (
         }
         `}
     render={(data) => {
-      const logoImg = require('./images/logo.svg');
       const twitter = require('./images/twitter.svg');
       const {
         site: {
           siteMetadata: {
-            headerTitle,
             githubUrl,
             helpUrl,
             tweetText,
@@ -56,19 +53,12 @@ const Header = ({location}) => (
           }
         }
       } = data;
-      const finalLogoLink = logo.link !== '' ? logo.link : '/';
+
       return (
         <div className={'navBarWrapper'}>
           <nav className={'navbar navbar-default navBarDefault'}>
             <div className={'navbar-header navBarHeader'}>
-              <Link to={finalLogoLink} className={'navbar-brand navBarBrand'}>
-                {logo.image !== '' ?
-                  (<img className={'img-responsive'} src={logo.image} alt={'logo'} />)
-                  :
-                  (<img className={'img-responsive'} src={logoImg} alt={'logo'} />)
-                }
-                <div className={"headerTitle"} dangerouslySetInnerHTML={{__html: headerTitle}} />
-              </Link>
+              <div className={"headerTitle"}>A11y First</div>
               <button type="button" className={'navbar-toggle collapsed navBarToggle'} data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span className={'sr-only'}>Toggle navigation</span>
                 <span className={'icon-bar'}></span>
