@@ -1,3 +1,5 @@
+![A11y First text logo](https://res.cloudinary.com/tpage99/image/upload/v1571536622/a11y-first/A11y_First.png)
+
 Welcome to a11y First! I'm a social worker who codes and I have become increasingly interested in accessibility practices in web development but also how it directly impacts some of the people with whom I get to work. Inspired by [Hacktoberfest](https://hacktoberfest.digitalocean.com/) I wanted to create a central place for accessibility supports for both web developers and myself as someone who works firsthand with people who can benefit from a11y practices.
 
 This is a work in progress, but I welcome any and all PR's for a11y resources! Hopefully this will allow for others to contribute to Open Source, but also to learn more about accessibility and increase awareness about the need for developers to build with accessibility in mind.
