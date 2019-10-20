@@ -1,3 +1,5 @@
+![Logotipo do texto a11y](https://res.cloudinary.com/tpage99/image/upload/v1571536622/a11y-first/A11y_First.png)
+
 Bem-vindo ao a11y. Primeiramente, sou uma assistente social que codifica e me tornei cada vez mais interessada em práticas de acessibilidade no desenvolvimento da Web, mas também em como isso afeta diretamente algumas das pessoas com quem trabalho. Inspirado por [Hacktoberfest] (https://hacktoberfest.digitalocean.com/), eu queria criar um lugar para dar suporte à acessibilidade para desenvolvedores da Web e para mim como alguém que trabalha em primeira mão com pessoas que podem se beneficiar de todas as práticas.
 
 Este é um trabalho em andamento, mas dou as boas vindas à todo e qualquer PR por todos os recursos! Esperamos que isso permita que outras pessoas contribuam com o código aberto, mas também aprenda mais sobre acessibilidade e aumente a conscientização sobre a necessidade de desenvolvedores desenvolverem com a acessibilidade em mente.
