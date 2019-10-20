@@ -30,6 +30,13 @@ ___
 Link: https://color.review/
 ___  
 
+## Contrast  
+[Contrast](https://usecontrast.com/) is a macOS app for designers and developers that provides quick access to WCAG color contrast ratios.
+Contrast scores are given immediately after colors are chosen, reducing time needed to check designs.
+
+Link: https://usecontrast.com/
+___ 
+
 ## Pa11y Dashboard  
 [Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accesibility dashboard for your site that displays all of the problems per page, helps you debug accesibility issues, and charts to show you progress or regressions. Great tool for visually sharing accesibility problems with your team and a perfect addition to shared monitors.
 
@@ -42,9 +49,3 @@ The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extensi
 Link: https://wave.webaim.org/extension/
 ___  
 
-## Contrast  
-[Contrast](https://usecontrast.com/) is a macOS app for designers and developers that provides quick access to WCAG color contrast ratios.
-Contrast scores are given immediately after colors are chosen, reducing time needed to check designs.
-
-Link: https://usecontrast.com/
-___ 
