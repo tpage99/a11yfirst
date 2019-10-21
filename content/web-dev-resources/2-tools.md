@@ -6,6 +6,18 @@ metaDescription: "A list of online tools for web developers on how to maintain a
 
 Tools are important for web developers to be able to have the means to maintain accessibility on a website or web application. Here are some resources to help address some common accessibility issues. 
 
+## A11Y COMPLIANCE PLATFORM  
+The [A11Y Compliance Platform](https://www.boia.org/w3c-tools-services-a11y) is offered through the Bureau of Internet Accessibility. The platform gives tools, reports and services to help companies and organizations maintain and defend the web site’s accessibility and integrity.
+
+Link: https://www.boia.org/w3c-tools-services-a11y
+___  
+
+## AATT
+Automated Accessibility Testing Tool, or [AATT](https://github.com/paypal/AATT), is a product offered by PayPal. This platform provides an accessibility API as well as other custom web applications for HTML CodeSniffer.
+
+Link: https://github.com/paypal/AATT
+___  
+
 ## Accessibility Insights  
 [Accessibility Insights](https://accessibilityinsights.io/) is available as a browser extension for Chrome or Edge, or as a Windows application to test web pages and applications for accessibility issues. Developed and maintained by Microsoft. Best of all, it's open source. 
 
@@ -37,6 +49,12 @@ Contrast scores are given immediately after colors are chosen, reducing time nee
 Link: https://usecontrast.com/
 ___ 
 
+## DYNO MAPPER  
+[DYNO Mapper](https://dynomapper.com/) is a sitemap generator that checks the web accessibility of websites and online applications. DYNO Mapper includes content inventory and audit, as well as daily keyword tracking. Results are displayed within visual sitemaps to allow for easy and efficient project discovery and planning.
+
+Link: https://dynomapper.com/
+___  
+
 ## Pa11y Dashboard  
 [Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accesibility dashboard for your site that displays all of the problems per page, helps you debug accesibility issues, and charts to show you progress or regressions. Great tool for visually sharing accesibility problems with your team and a perfect addition to shared monitors.
 
@@ -47,22 +65,4 @@ ___
 The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extension), evaluates web content for accessibility issues for Chrome and Firefox browsers. The extension runs in the Chrome and Firefox browsers, ensuring private and secure accessibility reporting.
 
 Link: https://wave.webaim.org/extension/
-___  
-
-## DYNO MAPPER  
-[DYNO Mapper](https://dynomapper.com/) is a sitemap generator that checks the web accessibility of websites and online applications. DYNO Mapper includes content inventory and audit, as well as daily keyword tracking. Results are displayed within visual sitemaps to allow for easy and efficient project discovery and planning.
-
-Link: https://dynomapper.com/
-___  
-
-## A11Y COMPLIANCE PLATFORM  
-The [A11Y Compliance Platform](https://www.boia.org/w3c-tools-services-a11y) is offered through the Bureau of Internet Accessibility. The platform gives tools, reports and services to help companies and organizations maintain and defend the web site’s accessibility and integrity.
-
-Link: https://www.boia.org/w3c-tools-services-a11y
-___  
-
-## AATT
-Automated Accessibility Testing Tool, or [AATT](https://github.com/paypal/AATT), is a product offered by PayPal. This platform provides an accessibility API as well as other custom web applications for HTML CodeSniffer.
-
-Link: https://github.com/paypal/AATT
 ___  
