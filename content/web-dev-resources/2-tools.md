@@ -30,6 +30,15 @@ Link: [https://accessibilityinsights.io/](https://accessibilityinsights.io/)
 
 ---
 
+## Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
+You can run Lighthouse in Chrome DevTools, from the command line, or as a Node module. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did.
+
+Link: [https://developers.google.com/web/tools/lighthouse/](https://developers.google.com/web/tools/lighthouse/)
+
+---
+
 ## Axe
 
 [Axe from deque](https://www.deque.com/axe/) is the World’s most popular accessibility testing toolkit built on the World’s most popular accessibility rules library. Axe is ideal for development teams to test their Web, Android and iOS applications to help identify and resolve common accessibility issues. Built to scale with your needs, users have run axe for everything from ad-hoc single page tests to testing hundreds of thousands of pages while integrated into existing CI/CD processes. It’s simple to use, doesn’t require advanced accessibility knowledge and won’t waste your time with false positives.
@@ -60,6 +69,14 @@ Link: [https://color.review/](https://color.review/)
 Contrast scores are given immediately after colors are chosen, reducing time needed to check designs.
 
 Link: [https://usecontrast.com/](https://usecontrast.com/)
+
+---
+
+## Colour Contrast Analyser
+
+[Colour Contrast Analyser(CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/) helps you determine the legibility of text and the contrast of visual elements, such as graphical controls and visual indicators.
+
+Link: [https://developer.paciellogroup.com/resources/contrastanalyser/](https://developer.paciellogroup.com/resources/contrastanalyser/)
 
 ---
 
