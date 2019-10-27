@@ -292,10 +292,12 @@ pre {
   border-left: 1px solid #e6ecf1;
   border-left-color: rgb(230, 236, 241);
   color: #555D64;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .rightSideBarUL {
-  margin-top: 32px;
+  margin-top: 0;
 }
 
 .rightSideBarUL li {
