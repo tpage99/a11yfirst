@@ -4,28 +4,28 @@ metaTitle: "Web Developers"
 metaDescription: "A list of resources for web developers on how to maintain a focus on a11y when developing."
 ---
 
-## A11y Project
+[A11y Project](https://a11yproject.com/)
 
-## Deque University
+[A11y Style Guide](https://a11y-style-guide.com/style-guide/)
 
-## WebAIM
+[Accessibility Wins](https://a11ywins.tumblr.com/)
 
-## Web Accessibility Initiative at the W3C
+[ARIA Authoring Practices Guide](https://www.w3.org/TR/wai-aria-practices-1.1/)
 
-## Web Content Accessibility Guidelines
+[Deque University](https://dequeuniversity.com/)
 
-## ARIA Authoring Practices Guide
+[Egghead.io: Start Building Accessible Web Applications Today](https://egghead.io/courses/start-building-accessible-web-applications-today)
 
-## The Rules of ARIA from the W3C
+[Google/Udacity Web Accessibility course](https://www.udacity.com/course/web-accessibility--ud891)
 
-## A11y Style Guide
+[Hacking Digital Styleguides for Accessibility by Tatiana T. Mac](https://www.skillshare.com/site/join?teacherRef=8634404&t=Hacking-Digital-Styleguides-for-Accessibility-Type-Color-Imagery&sku=1920202818)
 
-## Google/Udacity Web Accessibility course
+[The Rules of ARIA from the W3C](https://www.w3.org/TR/using-aria/)
 
-## Egghead.io: Start Building Accessible Web Applications Today
+[WebAIM](https://webaim.org/)
 
-## Accessibility Wins
+[Web Accessibility for Designers](https://webaim.org/resources/designers/)
 
-## Web Accessibility for Designers
+[Web Accessibility Initiative at the W3C](https://www.w3.org/WAI/)
 
-## Hacking Digital Styleguides for Accessibility by Tatiana T. Mac
+[Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
