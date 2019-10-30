@@ -37,14 +37,6 @@ Link: [https://github.com/paypal/AATT](https://github.com/paypal/AATT)
 
 ---
 
-## Accessibility Insights
-
-[Accessibility Insights](https://accessibilityinsights.io/) is available as a browser extension for Chrome or Edge, or as a Windows application to test web pages and applications for accessibility issues. Developed and maintained by Microsoft. Best of all, it's open source.
-
-Link: [https://accessibilityinsights.io/](https://accessibilityinsights.io/)
-
----
-
 ## Cauldron
 
 [Cauldron from deque](https://pattern-library.dequelabs.com/) is a fullyaccessible HTML, CSS, and Javascript front-end framework for creating web and mobile applications. Cauldron will not only help shortcut decisions and development time designing, creating and testing core components for your application but will be consistent with the branding, look and feel of all new Deque applications. Cauldron is designed to be as easy to use as it is elegant and modern. Cauldron is abstracted out into simple classes and tags, making it as flexible as HTML/CSS while still being behaviorally and aesthetically prescriptive. PUG tags are also supported and REACT is coming soon!
