@@ -83,3 +83,34 @@ Link: [https://rosenfeldmedia.com/books/a-web-for-everyone/](https://rosenfeldme
 Link: [https://abookapart.com/products/just-enough-research](https://abookapart.com/products/just-enough-research)
 
 ---
+
+## The Modern Web
+
+[The Modern Web: Multi-Device Web Development with HTML5, CSS3, and Javascript](https://nostarch.com/modernweb) by Peter Gasston 
+
+Link: [https://nostarch.com/modernweb](https://nostarch.com/modernweb)
+
+--- 
+
+## The Book of CSS3
+
+[The Book of CSS3 (2nd Edition): A Developer's Guide to the Future of Web Design](https://nostarch.com/css3_2e) by Peter Gasston
+
+Link: [https://nostarch.com/css3_2e](https://nostarch.com/css3_2e)
+
+---
+
+## The Web Programmer's Desk Reference 
+
+[The Web Programmer's Desk Reference](https://www.amazon.com/Web-Programmers-Desk-Reference/dp/1593270119) by Lazaro Issi Cohen & Joseph Issi Cohen
+
+Link: [https://www.amazon.com/Web-Programmers-Desk-Reference/dp/1593270119](https://www.amazon.com/Web-Programmers-Desk-Reference/dp/1593270119)
+
+---
+
+# Mastering Javascript 
+[Mastering Javascript: A Complete Programming Guide](https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG) by Michael B. White
+
+Link: [https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG](https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG)
+
+---
