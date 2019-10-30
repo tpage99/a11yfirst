@@ -112,8 +112,8 @@ const SidebarLayout = ({ location }) => (
       if (finalNavItems && finalNavItems.length) {
         return (
           <Sidebar>
+            <h2 className={'rightSideTitle'}>CONTENTS</h2>
             <ul className={'rightSideBarUL'}>
-              <div className={'rightSideTitle'}>CONTENTS</div>
               {finalNavItems}
             </ul>
           </Sidebar>
