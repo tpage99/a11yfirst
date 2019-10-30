@@ -137,6 +137,30 @@ Link: [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
 
 ---
 
+# W3 Schools Color Pikcer
+
+This is a very simple and convenient color picker for web development, with support for hex, RGB, and Hsl values.
+
+Link: [https://www.w3schools.com/colors/colors_picker.asp](https://www.w3schools.com/colors/colors_picker.asp)
+
+---
+
+# W3 Schools HTML Element Reference
+
+This is a very convenient tag reference for HTML, with tags sorted aphabetically. It provides a description of what each tag does, which browsers support it, and possible differences between different HTML versions. 
+
+Link: [https://www.w3schools.com/tags/](https://www.w3schools.com/tags/)
+
+---
+
+# HTMLDog
+
+This is a tutorial website covering HTML, CSS, and Javascript in varying levels of difficulty. Not only does it showcase easy-to-understand tutorials, but also has a techniques and examples section, making it a great resource for either learning how to code in one of these languages or simply refreshing core concepts and syntax. 
+
+Link: [https://www.htmldog.com/](https://www.htmldog.com/)
+
+---
+
 ## Color Contrast Checker
 
 The Contrast Checker tool provided by WebAIM is a simple tool to check for contrast ratios for text with respect to backgrounds of different colors.
