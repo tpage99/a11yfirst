@@ -108,7 +108,7 @@ Link: [https://www.amazon.com/Web-Programmers-Desk-Reference/dp/1593270119](http
 
 ---
 
-# Mastering Javascript 
+## Mastering Javascript 
 [Mastering Javascript: A Complete Programming Guide](https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG) by Michael B. White
 
 Link: [https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG](https://www.amazon.com/Mastering-JavaScript-Programming-Application-Development-ebook/dp/B07QCFL1WG)
