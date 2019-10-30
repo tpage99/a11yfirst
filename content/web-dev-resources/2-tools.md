@@ -89,15 +89,13 @@ Contrast scores are given immediately after colors are chosen, reducing time nee
 
 
 Link: https://usecontrast.com/
+
 ___
 
 ## Pa11y Dashboard  
 [Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accessibility dashboard for your site that displays all of the problems per page, helps you debug accessibility issues, and charts to show you progress or regressions. Great tool for visually sharing accessibility problems with your team and a perfect addition to shared monitors.
 
 Link: https://github.com/pa11y/pa11y-dashboard
-___
-=======
-Link: [https://usecontrast.com/](https://usecontrast.com/)
 
 ---
 
@@ -117,15 +115,8 @@ Link: [https://dynomapper.com/](https://dynomapper.com/)
 
 ---
 
-## Pa11y Dashboard
-
 ## A11Y COMPLIANCE PLATFORM  
 The [A11Y Compliance Platform](https://www.boia.org/w3c-tools-services-a11y) is offered through the Bureau of Internet Accessibility. The platform gives tools, reports and services to help companies and organizations maintain and defend the website’s accessibility and integrity.
-=======
-[Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accesibility dashboard for your site that displays all of the problems per page, helps you debug accesibility issues, and charts to show you progress or regressions. Great tool for visually sharing accesibility problems with your team and a perfect addition to shared monitors.
-
-
-Link: [https://github.com/pa11y/pa11y-dashboard](https://github.com/pa11y/pa11y-dashboard)
 
 ---
 
