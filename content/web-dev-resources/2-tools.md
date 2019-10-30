@@ -86,3 +86,9 @@ The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extensi
 Link: [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
 
 ---
+
+## Color Contrast Checker
+
+The Contrast Checker tool provided by WebAIM is a simple tool to check for contrast ratios for text with respect to backgrounds of different colors.
+
+Link: [https://webaim.org/resources/contrastchecker/](https://webaim.org/resources/contrastchecker/)

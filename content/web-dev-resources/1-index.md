@@ -29,3 +29,11 @@ metaDescription: "A list of resources for web developers on how to maintain a fo
 [Web Accessibility Initiative at the W3C](https://www.w3.org/WAI/)
 
 [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
+
+[Mobile Accessibility Checklist](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Mobile_accessibility_checklist)
+
+[Understanding WCAG2.1](https://www.w3.org/WAI/WCAG21/Understanding/)
+
+[Axe Rules](https://dequeuniversity.com/rules/axe/)
+
+[Using ARIA: Roles, states and properties](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques)
