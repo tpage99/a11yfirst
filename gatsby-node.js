@@ -1,6 +1,6 @@
-const componentWithMDXScope = require("gatsby-plugin-mdx/component-with-mdx-scope");
-const path = require("path");
-const startCase = require("lodash.startcase");
+const componentWithMDXScope = require('gatsby-plugin-mdx/component-with-mdx-scope');
+const path = require('path');
+const startCase = require('lodash.startcase');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
@@ -9,16 +9,20 @@ exports.createPages = ({ graphql, actions }) => {
       graphql(
         `
           {
-            allMdx {
+            allMdx(
+              filter: { fields: { slug: { regex: "/^(?!/resources/?)/" } } }
+            ) {
               edges {
                 node {
                   fields {
                     id
-                  }
-                  tableOfContents
-                  fields {
                     slug
                   }
+                  frontmatter {
+                    taglist
+                  }
+                  tableOfContents
+                  fileAbsolutePath
                 }
               }
             }
@@ -33,10 +37,11 @@ exports.createPages = ({ graphql, actions }) => {
         // Create blog posts pages.
         result.data.allMdx.edges.forEach(({ node }) => {
           createPage({
-            path: node.fields.slug ? node.fields.slug : "/",
-            component: path.resolve("./src/templates/docs.js"),
+            path: node.fields.slug ? node.fields.slug : '/',
+            component: path.resolve('./src/templates/docs.js'),
             context: {
-              id: node.fields.id
+              id: node.fields.id,
+              tagList: node.frontmatter.taglist || []
             }
           });
         });
@@ -48,15 +53,15 @@ exports.createPages = ({ graphql, actions }) => {
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
     resolve: {
-      modules: [path.resolve(__dirname, "src"), "node_modules"],
-      alias: { $components: path.resolve(__dirname, "src/components") }
+      modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+      alias: { $components: path.resolve(__dirname, 'src/components') }
     }
   });
 };
 
 exports.onCreateBabelConfig = ({ actions }) => {
   actions.setBabelPlugin({
-    name: "@babel/plugin-proposal-export-default-from"
+    name: '@babel/plugin-proposal-export-default-from'
   });
 };
 
@@ -65,10 +70,10 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 
   if (node.internal.type === `Mdx`) {
     const parent = getNode(node.parent);
-    let value = parent.relativePath.replace(parent.ext, "");
+    let value = parent.relativePath.replace(parent.ext, '');
 
-    if (value === "index") {
-      value = "";
+    if (value === 'index') {
+      value = '';
     }
 
     createNodeField({
@@ -78,13 +83,13 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     });
 
     createNodeField({
-      name: "id",
+      name: 'id',
       node,
       value: node.id
     });
 
     createNodeField({
-      name: "title",
+      name: 'title',
       node,
       value: node.frontmatter.title || startCase(parent.name)
     });

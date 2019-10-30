@@ -1,12 +1,16 @@
-import React, { Component } from "react";
-import Helmet from "react-helmet";
-import { graphql } from "gatsby";
-import MDXRenderer from "gatsby-plugin-mdx/mdx-renderer";
-import styled, { injectGlobal } from "react-emotion";
-import { Layout, Link } from "$components";
+import React, { Component } from 'react';
+import Helmet from 'react-helmet';
+import { graphql } from 'gatsby';
+import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
+import { MDXProvider } from '@mdx-js/react';
+import TagList from '../components/tagList/tagList';
+import styled, { injectGlobal } from 'react-emotion';
+import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import '../components/styles.css';
 import config from '../../config';
+
+const shortcodes = { TagList };
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -83,7 +87,7 @@ export default class MDXRuntimeTest extends Component {
 
     const navItems = allMdx.edges
       .map(({ node }) => node.fields.slug)
-      .filter(slug => slug !== "/")
+      .filter(slug => slug !== '/')
       .sort()
       .reduce(
         (acc, cur) => {
@@ -91,7 +95,7 @@ export default class MDXRuntimeTest extends Component {
             return { ...acc, [cur]: [cur] };
           }
 
-          const prefix = cur.split("/")[1];
+          const prefix = cur.split('/')[1];
 
           if (prefix && forcedNavOrder.find(url => url === `/${prefix}`)) {
             return { ...acc, [`/${prefix}`]: [...acc[`/${prefix}`], cur] };
@@ -121,7 +125,10 @@ export default class MDXRuntimeTest extends Component {
     const metaTitle = mdx.frontmatter.metaTitle;
     const metaDescription = mdx.frontmatter.metaDescription;
     let canonicalUrl = config.gatsby.siteUrl;
-    canonicalUrl = config.gatsby.pathPrefix !== '/' ? canonicalUrl + config.gatsby.pathPrefix : canonicalUrl;
+    canonicalUrl =
+      config.gatsby.pathPrefix !== '/'
+        ? canonicalUrl + config.gatsby.pathPrefix
+        : canonicalUrl;
     canonicalUrl = canonicalUrl + mdx.fields.slug;
 
     return (
@@ -129,17 +136,23 @@ export default class MDXRuntimeTest extends Component {
         <Helmet>
           {metaTitle ? <title>{metaTitle}</title> : null}
           {metaTitle ? <meta name="title" content={metaTitle} /> : null}
-          {metaDescription ? <meta name="description" content={metaDescription} /> : null}
+          {metaDescription ? (
+            <meta name="description" content={metaDescription} />
+          ) : null}
           {metaTitle ? <meta property="og:title" content={metaTitle} /> : null}
-          {metaDescription ? <meta property="og:description" content={metaDescription} /> : null}
-          {metaTitle ? <meta property="twitter:title" content={metaTitle} /> : null}
-          {metaDescription ? <meta property="twitter:description" content={metaDescription} /> : null}
+          {metaDescription ? (
+            <meta property="og:description" content={metaDescription} />
+          ) : null}
+          {metaTitle ? (
+            <meta property="twitter:title" content={metaTitle} />
+          ) : null}
+          {metaDescription ? (
+            <meta property="twitter:description" content={metaDescription} />
+          ) : null}
           <link rel="canonical" href={canonicalUrl} />
         </Helmet>
         <div className={'titleWrapper'}>
-          <h1 className={'title'}>
-            {mdx.fields.title}
-          </h1>
+          <h1 className={'title'}>{mdx.fields.title}</h1>
           <Edit className={'mobileView'}>
             <Link className={'gitBtn'} to={`${docsLocation}`}>
               <img src={gitHub} alt={'Github logo'} /> Edit on GitHub
@@ -147,7 +160,9 @@ export default class MDXRuntimeTest extends Component {
           </Edit>
         </div>
         <div className={'mainWrapper'}>
-          <MDXRenderer>{mdx.body}</MDXRenderer>
+          <MDXProvider components={shortcodes}>
+            <MDXRenderer>{mdx.body}</MDXRenderer>
+          </MDXProvider>
         </div>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
@@ -158,7 +173,7 @@ export default class MDXRuntimeTest extends Component {
 }
 
 export const pageQuery = graphql`
-  query($id: String!) {
+  query($id: String!, $tagList: [String]) {
     site {
       siteMetadata {
         title
@@ -181,6 +196,18 @@ export const pageQuery = graphql`
       frontmatter {
         metaTitle
         metaDescription
+      }
+    }
+    resources: allMdx(filter: { frontmatter: { tags: { in: $tagList } } }) {
+      edges {
+        node {
+          tableOfContents
+          frontmatter {
+            title
+            url
+          }
+          body
+        }
       }
     }
     allMdx {
