@@ -6,6 +6,25 @@ metaDescription: "A list of online tools for web developers on how to maintain a
 
 Tools are important for web developers to be able to have the means to maintain accessibility on a website or web application. Here are some resources to help address some common accessibility issues.
 
+
+## Accessibility Insights  
+[Accessibility Insights](https://accessibilityinsights.io/) is available as a browser extension for Chrome or Edge, or as a Windows application to test web pages and applications for accessibility issues. Developed and maintained by Microsoft. Best of all, it's open source.
+
+Link: https://accessibilityinsights.io/
+___  
+
+## Axe  
+[Axe from Deque](https://www.deque.com/axe/) is the World’s most popular accessibility testing toolkit built on the World’s most popular accessibility rules library. Axe is ideal for development teams to test their Web, Android and iOS applications to help identify and resolve common accessibility issues. Built to scale with your needs, users have run Axe for everything from ad-hoc single page tests to testing hundreds of thousands of pages while integrated into existing CI/CD processes. It’s simple to use, doesn’t require advanced accessibility knowledge and won’t waste your time with false positives.
+
+Link: https://www.deque.com/axe/
+___  
+
+## Cauldron  
+[Cauldron from Deque](https://pattern-library.dequelabs.com/) is a fully accessible HTML, CSS, and Javascript front-end framework for creating web and mobile applications. Cauldron will not only help shortcut decisions and development time designing, creating and testing core components for your application but will be consistent with the branding, look and feel of all new Deque applications. Cauldron is designed to be as easy to use as it is elegant and modern. Cauldron is abstracted out into simple classes and tags, making it as flexible as HTML/CSS while still being behaviorally and aesthetically prescriptive. PUG tags are also supported and REACT is coming soon!
+
+Link: https://pattern-library.dequelabs.com
+___  
+
 ## A11Y COMPLIANCE PLATFORM
 
 The [A11Y Compliance Platform](https://www.boia.org/w3c-tools-services-a11y) is offered through the Bureau of Internet Accessibility. The platform gives tools, reports and services to help companies and organizations maintain and defend the web site’s accessibility and integrity.
@@ -27,6 +46,15 @@ Link: [https://github.com/paypal/AATT](https://github.com/paypal/AATT)
 [Accessibility Insights](https://accessibilityinsights.io/) is available as a browser extension for Chrome or Edge, or as a Windows application to test web pages and applications for accessibility issues. Developed and maintained by Microsoft. Best of all, it's open source.
 
 Link: [https://accessibilityinsights.io/](https://accessibilityinsights.io/)
+
+---
+
+## Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
+You can run Lighthouse in Chrome DevTools, from the command line, or as a Node module. You give Lighthouse a URL to audit, it runs a series of audits against the page, and then it generates a report on how well the page did.
+
+Link: [https://developers.google.com/web/tools/lighthouse/](https://developers.google.com/web/tools/lighthouse/)
 
 ---
 
@@ -59,7 +87,25 @@ Link: [https://color.review/](https://color.review/)
 [Contrast](https://usecontrast.com/) is a macOS app for designers and developers that provides quick access to WCAG color contrast ratios.
 Contrast scores are given immediately after colors are chosen, reducing time needed to check designs.
 
+
+Link: https://usecontrast.com/
+___
+
+## Pa11y Dashboard  
+[Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accessibility dashboard for your site that displays all of the problems per page, helps you debug accessibility issues, and charts to show you progress or regressions. Great tool for visually sharing accessibility problems with your team and a perfect addition to shared monitors.
+
+Link: https://github.com/pa11y/pa11y-dashboard
+___
+=======
 Link: [https://usecontrast.com/](https://usecontrast.com/)
+
+---
+
+## Colour Contrast Analyser
+
+[Colour Contrast Analyser(CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/) helps you determine the legibility of text and the contrast of visual elements, such as graphical controls and visual indicators.
+
+Link: [https://developer.paciellogroup.com/resources/contrastanalyser/](https://developer.paciellogroup.com/resources/contrastanalyser/)
 
 ---
 
@@ -73,7 +119,11 @@ Link: [https://dynomapper.com/](https://dynomapper.com/)
 
 ## Pa11y Dashboard
 
+## A11Y COMPLIANCE PLATFORM  
+The [A11Y Compliance Platform](https://www.boia.org/w3c-tools-services-a11y) is offered through the Bureau of Internet Accessibility. The platform gives tools, reports and services to help companies and organizations maintain and defend the website’s accessibility and integrity.
+=======
 [Pa11y Dashboard](https://github.com/pa11y/pa11y-dashboard) is a web interface which helps you monitor the accessibility of your websites. With Pa11y you set up an accesibility dashboard for your site that displays all of the problems per page, helps you debug accesibility issues, and charts to show you progress or regressions. Great tool for visually sharing accesibility problems with your team and a perfect addition to shared monitors.
+
 
 Link: [https://github.com/pa11y/pa11y-dashboard](https://github.com/pa11y/pa11y-dashboard)
 
@@ -86,3 +136,17 @@ The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extensi
 Link: [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
 
 ---
+
+## Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
+
+Link: [https://developers.google.com/web/tools/lighthouse/](https://developers.google.com/web/tools/lighthouse/)
+
+---
+
+## Coolors Color Palette Generator
+
+[Coolors](https://coolors.co/) is the super fast color schemes generator. Users can create, save, and share perfect palettes in seconds. With the press of a spacebar, a color scheme is generated from which users can adjust and refine to their desires, share to others, create a collection, and save on the cloud. Coolors is recommended by major companies all over the world.
+
+Link: [https://coolors.co/](https://coolors.co/)

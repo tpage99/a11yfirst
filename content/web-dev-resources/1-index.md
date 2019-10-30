@@ -31,3 +31,4 @@ metaDescription: "A list of resources for web developers on how to maintain a fo
 [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
 
 [Up Your A11Y](https://www.upyoura11y.com)
+
