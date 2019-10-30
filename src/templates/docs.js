@@ -2,15 +2,11 @@ import React, { Component } from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import MDXRenderer from 'gatsby-plugin-mdx/mdx-renderer';
-import { MDXProvider } from '@mdx-js/react';
-import TagList from '../components/tagList/tagList';
 import styled, { injectGlobal } from 'react-emotion';
 import { Layout, Link } from '$components';
 import NextPrevious from '../components/NextPrevious';
 import '../components/styles.css';
 import config from '../../config';
-
-const shortcodes = { TagList };
 
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
@@ -79,6 +75,7 @@ export default class MDXRuntimeTest extends Component {
     const {
       allMdx,
       mdx,
+      resources,
       site: {
         siteMetadata: { docsLocation, title }
       }
@@ -160,9 +157,27 @@ export default class MDXRuntimeTest extends Component {
           </Edit>
         </div>
         <div className={'mainWrapper'}>
-          <MDXProvider components={shortcodes}>
-            <MDXRenderer>{mdx.body}</MDXRenderer>
-          </MDXProvider>
+          <MDXRenderer>{mdx.body}</MDXRenderer>
+          {resources &&
+            resources.edges &&
+            resources.edges
+              .sort((a, b) => {
+                const elA = a.node.frontmatter.title.toUpperCase();
+                const elB = b.node.frontmatter.title.toUpperCase();
+                if (elA < elB) {
+                  return -1;
+                }
+                if (elA > elB) {
+                  return 1;
+                }
+              })
+              .map(node => {
+                return (
+                  <MDXRenderer key={node.node.title}>
+                    {node.node.body}
+                  </MDXRenderer>
+                );
+              })}
         </div>
         <div className={'addPaddTopBottom'}>
           <NextPrevious mdx={mdx} nav={nav} />
@@ -196,6 +211,7 @@ export const pageQuery = graphql`
       frontmatter {
         metaTitle
         metaDescription
+        taglist
       }
     }
     resources: allMdx(filter: { frontmatter: { tags: { in: $tagList } } }) {
