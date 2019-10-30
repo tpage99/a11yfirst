@@ -119,3 +119,17 @@ The Web Accessibility Evaluation Tool, or [WAVE](https://wave.webaim.org/extensi
 Link: [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
 
 ---
+
+## Lighthouse
+
+[Lighthouse](https://developers.google.com/web/tools/lighthouse/) is an open-source, automated tool for improving the quality of web pages. You can run it against any web page, public or requiring authentication. It has audits for performance, accessibility, progressive web apps, and more.
+
+Link: [https://developers.google.com/web/tools/lighthouse/](https://developers.google.com/web/tools/lighthouse/)
+
+---
+
+## Coolors Color Palette Generator
+
+[Coolors](https://coolors.co/) is the super fast color schemes generator. Users can create, save, and share perfect palettes in seconds. With the press of a spacebar, a color scheme is generated from which users can adjust and refine to their desires, share to others, create a collection, and save on the cloud. Coolors is recommended by major companies all over the world.
+
+Link: [https://coolors.co/](https://coolors.co/)

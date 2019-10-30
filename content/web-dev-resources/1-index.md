@@ -29,3 +29,11 @@ metaDescription: "A list of resources for web developers on how to maintain a fo
 [Web Accessibility Initiative at the W3C](https://www.w3.org/WAI/)
 
 [Web Content Accessibility Guidelines](https://www.w3.org/TR/WCAG21/)
+
+[W3 Schools Online Web Tutorials](https://www.w3schools.com/)
+
+[Docker Labs](https://dockerlabs.collabnix.com/)
+
+[Git Training Kit / Cheat Sheets](https://github.github.com/training-kit/)
+
+[Source Lair](https://www.sourcelair.com/home) 
