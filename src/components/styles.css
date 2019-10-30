@@ -3,6 +3,10 @@ body {
   font-family: 'Roboto';
 }
 
+p {
+  font-size: 20px;
+  }
+
 .video-responsive {
   position: relative;
   padding-bottom: 56.2%;
