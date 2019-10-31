@@ -126,7 +126,7 @@ Link: [https://wave.webaim.org/extension/](https://wave.webaim.org/extension/)
 
 ---
 
-## W3 Schools Color Pikcer
+## W3 Schools Color Picker
 
 This is a very simple and convenient color picker for web development, with support for hex, RGB, and Hsl values.
 
