@@ -102,11 +102,12 @@ This is a tutorial website covering HTML, CSS, and Javascript in varying levels 
 Link: [https://www.htmldog.com/](https://www.htmldog.com/)
 
 ---
-## IBM Equal Access Toolkit
+## IBM Equal Access Checker
 
-#[IBM Equal Access Accessibility Checker](https://github.com/IBMa/equal-access) is an open-source project from IBM which contains tools to automate accessibility checking, either from a browser or in a continuous development/build environment.
+[IBM Equal Access Accessibility Checker](https://github.com/IBMa/equal-access) is an open-source project from IBM which contains tools to automate accessibility checking, either from a browser or in a continuous development/build environment.
 
 Link: [https://github.com/IBMa/equal-access](https://github.com/IBMa/equal-access)
+
 ---
 
 ## Lighthouse
