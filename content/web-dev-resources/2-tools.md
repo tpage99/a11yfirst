@@ -102,6 +102,13 @@ This is a tutorial website covering HTML, CSS, and Javascript in varying levels 
 Link: [https://www.htmldog.com/](https://www.htmldog.com/)
 
 ---
+## IBM Equal Access Checker
+
+[IBM Equal Access Accessibility Checker](https://github.com/IBMa/equal-access) is an open-source project from IBM which contains tools to automate accessibility checking, either from a browser or in a continuous development/build environment.
+
+Link: [https://github.com/IBMa/equal-access](https://github.com/IBMa/equal-access)
+
+---
 
 ## Lighthouse
 
@@ -117,6 +124,10 @@ Link: [https://developers.google.com/web/tools/lighthouse/](https://developers.g
 Link: https://github.com/pa11y/pa11y-dashboard
 
 ---
+## Tota11y 
+[Tota11y](https://khan.github.io/tota11y/) is an accessibility visualization toolkit available as a bookmarklet. It helps visualize how your site performs with assistive technologies. It points out accessibility violations and suggests specifically tailored ways to fix the errors.
+
+Link: [https://khan.github.io/tota11y/](https://khan.github.io/tota11y/)
 
 ## WAVE
 
